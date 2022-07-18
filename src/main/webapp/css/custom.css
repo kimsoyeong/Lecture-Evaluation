@@ -1,0 +1,17 @@
+/* 
+	프레임워크에서 custom design을 하고 싶을 때 custom.css 파일을 만들어 bootstrap(프레임워크)를 덮어쓴다. 
+	가장 많이 사용하는 형태: web-font
+*/
+
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+.navbar-brand, h1, h2, h3, h4 {
+	font-family: 'Jeju Gothic';
+}
+h5 {
+	font-family: 'Jeju Gothic';
+	font-size: 18px;
+}
+body {
+	font-family: 'Nanum Gothic'
+}
